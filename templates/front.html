@@ -5,5 +5,9 @@
 </head>
 <body>
 	<h1>Isaiah Baker</h1>
+	{% for i in data["projects"] %}
+		<p>{{ i.title }}</p>
+		<p>{{ i.description }}</p>
+	{% endfor %}
 </body>
 </html>
