@@ -1,4 +1,22 @@
 {
+	"bio": {
+		"name": "Isaiah Baker",
+		"role": "Software Developer",
+		"contact": [
+			{
+				"phone": "765-605-0079",
+				"email": "isaiah.baker@simpledove.com",
+				"github": "https://github.com/Zayah117",
+				"linkedin": "https://www.linkedin.com/in/isaiahbaker/",
+				"twitter": "https://twitter.com/Zayah117",
+				"website": "WEBSITE",
+				"location": "Mulberry - IN"
+			}
+
+		],
+		"welcomeMessage": "Hello World!",
+		"biopic": "PIC"
+	},
 	"projects": [
 		{
 			"title": "Project 1",
@@ -11,6 +29,31 @@
 		{
 			"title": "Project 3",
 			"description": "Project 3 description"
+		}
+	],
+	"skills": [
+		"Python",
+		"C#",
+		"HTML",
+		"CSS",
+		"Javascript",
+		"Java"
+	],
+	"udacityCourses": [
+		{
+			"title": "Intro To Programming Nanodegree"
+		},
+		{
+			"title": "Front End Nanodegree"
+		},
+		{
+			"title": "Full Stack Nanodegree"
+		}
+	],
+	"work": [
+		{
+			"title": "Forum Mentor",
+			"employer": "Udacity"
 		}
 	]
 }
