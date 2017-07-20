@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Isaiah Baker - Software Developer</title>
-</head>
-<body>
-	<h1>Isaiah Baker</h1>
-	{% for i in data["projects"] %}
-		<p>{{ i.title }}</p>
-		<p>{{ i.description }}</p>
-	{% endfor %}
-</body>
+	<head>
+		<meta charset="uft-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description" content="My Website">
+		<meta name="author" content="Isaiah Baker">
+		<link rel="icon" href="">
+
+		<title>Isaiah Baker - Software Developer</title>
+
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/styles.css">
+
+
+	</head>
+	<body>
+		<h1>Isaiah Baker</h1>
+		{% for i in data["projects"] %}
+			<p>{{ i.title }}</p>
+			<p>{{ i.description }}</p>
+		{% endfor %}
+	</body>
 </html>
