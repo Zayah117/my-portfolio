@@ -11,16 +11,22 @@
 
 		<title>Isaiah Baker - Software Developer</title>
 
-		<link rel="stylesheet" href="../css/bootstrap.min.css">
-		<link rel="stylesheet" href="../css/styles.css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css')}}">
 
 
 	</head>
 	<body>
-		<h1>Isaiah Baker</h1>
-		{% for i in data["projects"] %}
-			<p>{{ i.title }}</p>
-			<p>{{ i.description }}</p>
-		{% endfor %}
+		<div class="container">
+			<h1>Isaiah Baker</h1>
+			<div class="row">
+				{% for i in data["projects"] %}
+					<div class="col-md-4">
+						<p>{{ i.title }}</p>
+						<p>{{ i.description }}</p>		
+					</div>
+				{% endfor %}				
+			</div>			
+		</div>
 	</body>
 </html>
