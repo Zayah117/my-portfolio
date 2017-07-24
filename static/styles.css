@@ -1,6 +1,15 @@
+body {
+	background-color: #333333 !important;
+}
+
 header {
 	display: flex;
 	align-items: center;
+}
+
+.container {
+	background-color: #4f4f4f;
+	color: #e8e8e8;
 }
 
 .profile-pic {
