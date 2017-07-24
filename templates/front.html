@@ -18,7 +18,13 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>Isaiah Baker</h1>
+			<header class="row">
+				<img class="profile-pic" src="{{ url_for('static', filename='img/profile_pic.jpg')}}" alt="Profile pic">
+				<div>
+					<h1>Isaiah Baker</h1>
+					<p>Software Developer</p>
+				</div>
+			</header>
 			<div class="row">
 				{% for i in data["projects"] %}
 					<div class="col-md-4">
