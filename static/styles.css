@@ -7,9 +7,18 @@ header {
 	align-items: center;
 }
 
+header div {
+	text-align: center;
+	padding-left: 10px;
+}
+
 .container {
 	background-color: #4f4f4f;
 	color: #e8e8e8;
+}
+
+.row {
+	padding: 10px;
 }
 
 .profile-pic {
