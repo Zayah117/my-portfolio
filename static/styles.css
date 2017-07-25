@@ -16,6 +16,11 @@ header div {
 	padding-left: 10px;
 }
 
+footer {
+	background-color: #1c1c1c;
+	color: #e8e8e8;
+}
+
 .container {
 	background-color: #4f4f4f;
 	color: #e8e8e8;
