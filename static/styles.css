@@ -19,7 +19,13 @@ header div {
 footer {
 	background-color: #1c1c1c;
 	color: #e8e8e8;
+	text-align: center;
 	/*height: 60px;*/
+}
+
+footer .row {
+	float: none;
+	margin: 0 auto;
 }
 
 a, a:visited {
