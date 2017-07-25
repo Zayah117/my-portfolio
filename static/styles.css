@@ -19,12 +19,13 @@ header div {
 footer {
 	background-color: #1c1c1c;
 	color: #e8e8e8;
+	height: 60px;
 }
 
 .container {
 	background-color: #4f4f4f;
 	color: #e8e8e8;
-	height: 100vh;
+	height: calc(100vh - 60px);
 }
 
 .row {
