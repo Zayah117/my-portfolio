@@ -4,18 +4,15 @@
 		"role": "Software Developer",
 		"contact": [
 			{
-				"phone": "765-605-0079",
 				"email": "isaiah.baker@simpledove.com",
 				"github": "https://github.com/Zayah117",
 				"linkedin": "https://www.linkedin.com/in/isaiahbaker/",
 				"twitter": "https://twitter.com/Zayah117",
-				"website": "WEBSITE",
-				"location": "Mulberry - IN"
+				"website": "WEBSITE"
 			}
 
 		],
 		"welcomeMessage": "Hello World!",
-		"biopic": "PIC"
 	},
 	"projects": [
 		{
