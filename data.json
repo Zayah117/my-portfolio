@@ -65,7 +65,8 @@
 	"work": [
 		{
 			"title": "Forum Mentor",
-			"employer": "Udacity"
+			"employer": "Udacity",
+			"description": "Mentoring students enrolled in Udacity's Intro to Programming Nanodegree."
 		}
 	]
 }

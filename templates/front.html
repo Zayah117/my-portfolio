@@ -32,6 +32,16 @@
 					<p>About me. I'm a software engineer and I make lots of cool stuff and I love programming blah blah blah.</p>
 				</div>
 			</div>
+			<h3>Work Experience</h3>
+			<hr>
+			<div class="row">
+				{% for i in data["work"] %}
+					<div class="col-md-12">
+						<h6 class="work-title"><u><b>{{ i.title }}</b></u> - {{ i.employer }}</h6>
+						<p>{{ i.description }}</p>
+					</div>
+				{% endfor %}
+			</div>
 			<h3>Projects</h3>
 			<hr>
 			<div class="row">

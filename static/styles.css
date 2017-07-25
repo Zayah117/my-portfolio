@@ -58,6 +58,10 @@ hr {
 	padding-left: 5px;
 }
 
+.work-title {
+	font-size: 1.1em;
+}
+
 .project-img {
 	width: 64px;
 	height: 64px;
