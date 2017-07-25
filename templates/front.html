@@ -30,6 +30,7 @@
 					<div class="col-md-4 project">
 						<img src="{{ url_for('static', filename='')}}{{i.image}}">
 						<p>{{ i.title }}</p>
+						<a href="{{ i.link }}">{{ i.link }}</a>
 						<p>{{ i.description }}</p>
 					</div>
 				{% endfor %}
