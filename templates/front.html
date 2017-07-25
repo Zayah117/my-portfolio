@@ -28,6 +28,7 @@
 			<div class="row">
 				{% for i in data["projects"] %}
 					<div class="col-md-4 project">
+						<img src="{{ url_for('static', filename='')}}{{i.image}}">
 						<p>{{ i.title }}</p>
 						<p>{{ i.description }}</p>
 					</div>
