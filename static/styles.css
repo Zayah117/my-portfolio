@@ -22,8 +22,13 @@ footer {
 	/*height: 60px;*/
 }
 
-a {
-	color: #42a1f4;
+a, a:visited {
+	color: #3ad7ff !important;
+	/*color: #42a1f4;*/
+}
+
+hr {
+	margin: 0 !important;
 }
 
 .container {
@@ -38,7 +43,24 @@ a {
 
 .project {
 	padding: 10px;
-	border: black solid 2px;
+	/*border: black solid 2px;*/
+}
+
+.project-header {
+	display: flex;
+	align-items: center;
+}
+
+.project-title {
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-left: 5px;
+}
+
+.project-img {
+	width: 64px;
+	height: 64px;
 }
 
 .profile-pic {

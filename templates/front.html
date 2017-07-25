@@ -25,11 +25,15 @@
 					<p>Software Developer</p>
 				</div>
 			</header>
+			<h3>Projects</h3>
+			<hr>
 			<div class="row">
 				{% for i in data["projects"] %}
 					<div class="col-md-4 project">
-						<img src="{{ url_for('static', filename='')}}{{i.image}}">
-						<p>{{ i.title }}</p>
+						<div class="row project-header">
+							<img class="project-img" src="{{ url_for('static', filename='')}}{{ i.image }}">
+							<h6 class="project-title">{{ i.title }}</h6>							
+						</div>
 						<a href="{{ i.link }}">{{ i.link }}</a>
 						<p>{{ i.description }}</p>
 					</div>
