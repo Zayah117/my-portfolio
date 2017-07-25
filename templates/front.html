@@ -56,6 +56,15 @@
 					</div>
 				{% endfor %}
 			</div>
+			<h3>Certificates</h3>
+			<hr>
+			<div class="row">
+				{% for i in data["udacityCourses"] %}
+					<div class="col-md-12">
+						<a href="{{ url_for('static', filename='') }}{{ i.link }}">{{ i.title }} (PDF)</a>
+					</div>
+				{% endfor %}
+			</div>
 			<h3>Skills</h3>
 			<hr>
 			<div class="row">

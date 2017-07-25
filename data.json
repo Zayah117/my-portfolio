@@ -77,13 +77,16 @@
 	],
 	"udacityCourses": [
 		{
-			"title": "Intro To Programming Nanodegree"
+			"title": "Full Stack Web Developer",
+			"link": "pdf/FSND.pdf"
 		},
 		{
-			"title": "Front End Nanodegree"
+			"title": "Front End Web Developer",
+			"link": "pdf/FEND.pdf"
 		},
 		{
-			"title": "Full Stack Nanodegree"
+			"title": "Intro to Programming",
+			"link": "pdf/IPND.pdf"
 		}
 	],
 	"work": [
