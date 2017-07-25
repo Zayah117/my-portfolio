@@ -61,7 +61,7 @@
 			<div class="row">
 				{% for i in data["udacityCourses"] %}
 					<div class="col-md-12">
-						<a href="{{ url_for('static', filename='') }}{{ i.link }}">{{ i.title }} (PDF)</a>
+						<a href="{{ url_for('static', filename='') }}{{ i.link }}" target="_blank">{{ i.title }} (PDF)</a>
 					</div>
 				{% endfor %}
 			</div>
