@@ -19,40 +19,28 @@
 	},
 	"projects": [
 		{
-			"title": "Project 1",
+			"title": "Fullstack Nanodegree VM",
+			"link": "https://github.com/Zayah117/fullstack-nanodegree-vm",
+			"image": "img/restaurants.png",
 			"description": "Project 1 description"
 		},
 		{
-			"title": "Project 2",
+			"title": "Multi-User Blog",
+			"link": "https://github.com/Zayah117/multi-user-blog",
+			"image": "img/my-blog.png",
 			"description": "Project 2 description"
 		},
 		{
-			"title": "Project 3",
+			"title": "High Noon",
+			"link": "https://github.com/Zayah117/High-Noon",
+			"image": "img/high-noon.png",
 			"description": "Project 3 description"
 		},
 		{
-			"title": "Project 4",
+			"title": "Private Forum (Work in progress)",
+			"link": "https://github.com/Zayah117/private-forum",
+			"image": "",
 			"description": "Project 4 description"
-		},
-		{
-			"title": "Project 5",
-			"description": "Project 5 description"
-		},
-		{
-			"title": "Project 6",
-			"description": "Project 6 description"
-		},
-		{
-			"title": "Project 7",
-			"description": "Project 7 description"
-		},
-		{
-			"title": "Project 8",
-			"description": "Project 8 description"
-		},
-		{
-			"title": "Project 9",
-			"description": "Project 9 description"
 		}
 	],
 	"skills": [
