@@ -49,7 +49,31 @@
 		"HTML",
 		"CSS",
 		"Javascript",
-		"Java"
+		"Java (Beginner)",
+		"SQL",
+		"PostgreSQL",
+		"C++ (Beginner)",
+		"Bootstrap",
+		"Flexbox",
+		"CSS Grid",
+		"Grunt",
+		"Knockout JS",
+		"jQuerey",
+		"Flask",
+		"Jinja2",
+		"Jasmine",
+		"Apache",
+		"WSGI",
+		"Visual Studio",
+		"IDLE",
+		"Eclipse",
+		"Git",
+		"Github",
+		"Unreal",
+		"Unity",
+		"Linux",
+		"AJAX"
+
 	],
 	"udacityCourses": [
 		{

@@ -56,6 +56,15 @@
 					</div>
 				{% endfor %}
 			</div>
+			<h3>Skills</h3>
+			<hr>
+			<div class="row">
+				{% for i in data["skills"]|sort() %}
+					<div class="col-md-3 skill-container">
+						<p class="skill">{{ i }}</p>
+					</div>
+				{% endfor %}
+			</div>
 		</div>
 		<footer class="navbar navbar-fixed-bottom">
 			<p>FOOTER</p>

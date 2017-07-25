@@ -58,13 +58,26 @@ hr {
 	padding-left: 5px;
 }
 
+.project-img {
+	width: 64px;
+	height: 64px;
+}
+
 .work-title {
 	font-size: 1.1em;
 }
 
-.project-img {
-	width: 64px;
-	height: 64px;
+.skill-container {
+	text-align: center;
+	padding: 15px;
+}
+
+.skill {
+	display: inline;
+	color: #3ad7ff;
+	border: #3ad7ff solid 2px;
+	border-radius: 20px;
+	padding: 10px;
 }
 
 .profile-pic {
