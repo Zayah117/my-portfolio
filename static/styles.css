@@ -6,16 +6,6 @@ body {
 	background-color: #333333 !important;
 }
 
-header {
-	display: flex;
-	align-items: center;
-}
-
-header div {
-	text-align: center;
-	padding-left: 10px;
-}
-
 footer {
 	background-color: #1c1c1c;
 	color: #e8e8e8;
@@ -85,6 +75,17 @@ hr {
 	border: #3ad7ff solid 2px;
 	border-radius: 20px;
 	padding: 10px;
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 5px !important;
+}
+
+.profile div {
+	padding-left: 10px;
 }
 
 .profile-pic {

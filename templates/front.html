@@ -19,10 +19,15 @@
 	<body>
 		<div class="container">
 			<header class="row">
-				<img class="profile-pic" src="{{ url_for('static', filename='img/profile_pic.jpg')}}" alt="Profile pic">
-				<div>
-					<h1>Isaiah Baker</h1>
-					<p>Software Developer</p>
+				<div class="col-md-9 profile">
+					<img class="profile-pic" src="{{ url_for('static', filename='img/profile_pic.jpg')}}" alt="Profile pic">
+					<div>
+						<h1>Isaiah Baker</h1>
+						<p>Software Developer</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<p>CONTACT</p>
 				</div>
 			</header>
 			<h3>About</h3>
