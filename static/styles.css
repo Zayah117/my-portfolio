@@ -92,3 +92,8 @@ hr {
 	width: 128px;
 	height: 128px;
 }
+
+.header-connect {
+	text-align: center;
+	padding: 5px !important;
+}
