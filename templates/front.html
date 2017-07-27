@@ -84,7 +84,12 @@
 			<hr>
 			<div class="row">
 				{% for i in data["skills"]|sort() %}
-					<div class="col-md-3 skill-container">
+					<!--Large devices-->
+					<div class="col-md-3 skill-container hidden-md-down">
+						<p class="skill">{{ i }}</p>
+					</div>
+					<!--Small devices-->
+					<div class="col-md-6 skill-container hidden-lg-up">
 						<p class="skill">{{ i }}</p>
 					</div>
 				{% endfor %}
