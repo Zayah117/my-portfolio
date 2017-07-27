@@ -14,17 +14,14 @@
 	},
 	"projects": [
 		{
-			"title": "Fullstack Nanodegree VM",
+			"title": "Catalog Project",
 			"link": "https://github.com/Zayah117/fullstack-nanodegree-vm",
 			"image": "img/restaurants.png",
-			"description": "He determined to drop his litigation with the monastry, and relinguish his claims to the wood-cuting and fishery rihgts at once. He was the more ready to do this becuase the rights had becom much less valuable, and he had indeed the vaguest idea where the wood and river in quedtion were.",
+			"description": "Catalog project. A project where users can signup and then view and create their own restaurants and menu items.",
 			"points": [
-				"point 1",
-				"point 2",
-				"point 3 really really really really really long point lolololoololololololololololollo",
-				"point 4",
-				"point 5",
-				"point 6"
+				"Python Flask application",
+				"Implements Google and Facebook login",
+				"Database built with SQLAlchemy and SQLite"
 			]
 		},
 		{
@@ -53,8 +50,10 @@
 			"title": "Private Forum (Work in progress)",
 			"link": "https://github.com/Zayah117/private-forum",
 			"image": "",
-			"description": "Project 4 description. LONGER DESCRIPTION. LOLOLOLOLOLLOOLLO",
-			"points": []
+			"description": "A private forum for me and my friends (you and your friends too). Work in progress.",
+			"points": [
+				"Flask application."
+			]
 		}
 	],
 	"skills": [
