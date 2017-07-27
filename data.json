@@ -31,10 +31,11 @@
 			"title": "Multi-User Blog",
 			"link": "https://github.com/Zayah117/multi-user-blog",
 			"image": "img/my-blog.png",
-			"description": "Project 2 description",
+			"description": "A multi user blog built using webapp2 and Google App Engine. Users can make accounts, create new posts, and comment on posts.",
 			"points": [
-				"point 1",
-				"point 2"
+				"Database built using Google App Engine datastore",
+				"Secure user signup and login - passwords hashed using sha256",
+				"Built with webapp2, Python, and Jinja"
 			]
 		},
 		{
