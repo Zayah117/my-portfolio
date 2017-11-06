@@ -13,6 +13,17 @@
 		"welcomeMessage": "Hello World!"
 	},
 	"projects": [
+        {
+            "title": "Jetpack Pupper",
+            "link": "https://play.google.com/store/apps/details?id=com.SparkyPaws.JetpackPupper&hl=en",
+            "image": "img/jp.png",
+            "description": "Jetpack Pupper! Fly through space as a cute lil pupper.",
+            "points": [
+                "Unity Game Engine",
+                "Built with C#",
+                "Compete with your friends for biggest highscore!"
+            ]
+        },
 		{
 			"title": "Catalog Project",
 			"link": "https://github.com/Zayah117/fullstack-nanodegree-vm",
@@ -45,15 +56,6 @@
 				"Game and engine built with Javascript",
 				"Custom made sprites"
 			]
-		},
-		{
-			"title": "Private Forum (Work in progress)",
-			"link": "https://github.com/Zayah117/private-forum",
-			"image": "",
-			"description": "A private forum for me and my friends (you and your friends too). Work in progress.",
-			"points": [
-				"Flask application"
-			]
 		}
 	],
 	"skills": [
@@ -85,8 +87,8 @@
 		"Unreal",
 		"Unity",
 		"Linux",
-		"AJAX"
-
+		"AJAX",
+        "Docker"
 	],
 	"udacityCourses": [
 		{
@@ -106,7 +108,12 @@
 		{
 			"title": "Forum Mentor",
 			"employer": "Udacity",
-			"description": "Mentoring students enrolled in Udacity's Intro to Programming Nanodegree."
-		}
+			"description": "Mentor students enrolled in Udacity's Intro to Programming Nanodegree."
+		},
+        {
+            "title": "Project Reviewer",
+            "employer": "Udacity",
+            "description": "Review and assist with student homework."
+        }
 	]
 }
